@@ -1,0 +1,72 @@
+body{
+    background-color: gray;
+}
+.title{
+    font-size:xx-large;
+    color: orange;
+}
+.card {
+
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.5),
+                0 6px 20px 0 rgba(0,0,0,0.39);
+    background: rgb(98, 200, 160);
+    margin-bottom : 5%;
+    border-radius: 25px;
+    padding : 2%;
+    overflow: auto;
+    text-overflow: ellipsis;
+    }
+    .card:hover{
+        background: rgb(98, 219, 160);
+.content{
+    display: flex;
+    flex-wrap: wrap;
+
+
+}
+    }
+.todo_list_section{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+
+    .submit_form{
+    
+        text-align: center;
+        padding: 3%;
+        background: rgb(98, 200, 160);
+        border-radius: 25px;
+        box-shadow: 0 4px 8px 0 rgba(0,0,0,0.4),
+                    0 6px 20px 0 rgba(0,0,0,0.36);
+    }
+
+.todo_title{
+width: 10%;
+border-right: 1px solid white;
+
+
+}
+.todo_detail{
+    width: 50%;
+}
+.todo_time{
+    width: 15%;
+}
+.header{
+    text-align: center;
+}
+hr{
+    margin: 6px;
+}
+
+
+
+    .form-items{
+        display: flex;
+        flex-direction:column;
+        align-items: center;
+        justify-content: center;
+        width: 80%;
+    }
